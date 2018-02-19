@@ -1,0 +1,203 @@
+============================
+1. MyDig www.cnn.com A false
+============================
+
+DNSSEC not supported)
+DNSSEC not supported)
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43645
+;; flags: rd ; qd: 1 an: 4 au: 0 ad: 0 
+;; QUESTIONS:
+;;	www.cnn.com., type = A, class = IN
+
+;; ANSWERS:
+cnn.com.		47	IN	A	151.101.129.67
+cnn.com.		47	IN	A	151.101.193.67
+cnn.com.		47	IN	A	151.101.1.67
+cnn.com.		47	IN	A	151.101.65.67
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 192ms
+WHEN : Mon February 19 2018 02:06:18
+
+===============================
+2. MyDig linkedin.com NS false
+===============================
+
+DNSSEC not supported)
+DNSSEC not supported)
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19884
+;; flags: rd ; qd: 1 an: 8 au: 0 ad: 0 
+;; QUESTIONS:
+;;	linkedin.com., type = NS, class = IN
+
+;; ANSWERS:
+linkedin.com.		1734	IN	NS	ns3.p43.dynect.net.
+linkedin.com.		1734	IN	NS	ns4.p43.dynect.net.
+linkedin.com.		1734	IN	NS	dns3.p09.nsone.net.
+linkedin.com.		1734	IN	NS	dns2.p09.nsone.net.
+linkedin.com.		1734	IN	NS	dns4.p09.nsone.net.
+linkedin.com.		1734	IN	NS	ns1.p43.dynect.net.
+linkedin.com.		1734	IN	NS	ns2.p43.dynect.net.
+linkedin.com.		1734	IN	NS	dns1.p09.nsone.net.
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 226ms
+WHEN : Mon February 19 2018 02:10:58
+
+============================
+3. MyDig google.com MX false
+============================
+
+DNSSEC not supported)
+DNSSEC not supported)
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63940
+;; flags: rd ; qd: 1 an: 5 au: 0 ad: 0 
+;; QUESTIONS:
+;;	google.com., type = MX, class = IN
+
+;; ANSWERS:
+google.com.		482	IN	MX	10 aspmx.l.google.com.
+google.com.		482	IN	MX	20 alt1.aspmx.l.google.com.
+google.com.		482	IN	MX	40 alt3.aspmx.l.google.com.
+google.com.		482	IN	MX	30 alt2.aspmx.l.google.com.
+google.com.		482	IN	MX	50 alt4.aspmx.l.google.com.
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 164ms
+WHEN : Mon February 19 2018 02:11:39
+
+
+=================================
+4. MyDig www.facebook.com A false
+=================================
+
+DNSSEC not supported)
+DNSSEC not supported)
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50076
+;; flags: rd ; qd: 1 an: 2 au: 0 ad: 0 
+;; QUESTIONS:
+;;	www.facebook.com., type = MX, class = IN
+
+;; ANSWERS:
+star-mini.c10r.facebook.com.	14	IN	A	31.13.80.36
+www.facebook.com.	3115	IN	CNAME	star-mini.c10r.facebook.com.
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 232ms
+WHEN : Mon February 19 2018 02:13:05
+
+================================
+5. MyDig stonybrook.edu NS false
+================================
+
+DNSSEC not supported)
+DNSSEC not supported)
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46574
+;; flags: rd ; qd: 1 an: 3 au: 0 ad: 0 
+;; QUESTIONS:
+;;	stonybrook.edu., type = NS, class = IN
+
+;; ANSWERS:
+stonybrook.edu.		900	IN	NS	nocnoc.stonybrook.edu.
+stonybrook.edu.		900	IN	NS	whoisthere.stonybrook.edu.
+stonybrook.edu.		900	IN	NS	mewho.stonybrook.edu.
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 187ms
+WHEN : Mon February 19 2018 02:13:50
+
+
+============================
+6. MyDig ymail.com MX false
+============================
+
+DNSSEC not supported)
+DNSSEC not supported)
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14998
+;; flags: rd ; qd: 1 an: 3 au: 0 ad: 0 
+;; QUESTIONS:
+;;	ymail.com., type = MX, class = IN
+
+;; ANSWERS:
+ymail.com.		1800	IN	MX	10 mta6.am0.yahoodns.net.
+ymail.com.		1800	IN	MX	10 mta5.am0.yahoodns.net.
+ymail.com.		1800	IN	MX	10 mta7.am0.yahoodns.net.
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 175ms
+WHEN : Mon February 19 2018 02:21:13
+
+============================
+7. MyDig google.com A true
+============================
+
+DNSSEC Verifcation required
+Verified witk KSK
+Verified witk ZSK
+DNSSEC is configured	and	everything is verified
+DNSSEC verified for com.
+DNSSEC Verifcation required
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22897
+;; flags: rd ; qd: 1 an: 1 au: 0 ad: 0 
+;; QUESTIONS:
+;;	www.google.com., type = A, class = IN
+
+;; ANSWERS:
+google.com.		281	IN	A	172.217.5.110
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 178ms
+WHEN : Mon February 19 2018 03:11:53
+
+=================================
+8. MyDig dnssec-failed.org A true
+=================================
+	
+DNSSEC Verifcation required
+DNSSEC is configured	but	the	digital	signature could	NOT	be	verified"
+Verification failed due to KSK
+DNSSEC verified for com.
+DNSSEC Verifcation required
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41481
+;; flags: rd ; qd: 1 an: 1 au: 0 ad: 0 
+;; QUESTIONS:
+;;	dnssec-failed.org., type = A, class = IN
+
+;; ANSWERS:
+dnssec-failed.org.	7200	 IN	A	69.252.80.75
+
+;; AUTHORITY RECORDS:
+
+;; ADDITIONAL RECORDS:
+
+;; Message size: 0 bytes
+Query time : 222ms
+WHEN : Mon February 19 2018 03:24:20
+

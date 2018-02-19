@@ -32,7 +32,7 @@ public class Example {
 			for (long d : durationTimes) sum += d;
 			long avg = sum/10;
 			
-			System.out.println("Average time	to resolve "+hostNames[i]+":"+avg);
+			System.out.println("Average time     to resolve "+hostNames[i]+":"+avg);
 		}
 		
 		
