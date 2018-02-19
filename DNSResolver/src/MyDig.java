@@ -8,7 +8,7 @@ import java.net.InetAddress;
 public class MyDig {
 	
 	public static void main(String[] args) throws RelativeNameException, IOException {
-		String hostname = "www.facebook.com";
+		String hostname = "www.google.com";
 		String type = "A";
 		int dnsType = Type.A;
 		if (type.equals("A")) {
@@ -22,7 +22,7 @@ public class MyDig {
 		DNSResolver dResolver = new DNSResolver();
 		
 		long startTime = System.nanoTime();
-		Message response = dResolver.resolveDNS(hostname, dnsType, false);
+		Message response = dResolver.resolveDNS(hostname, dnsType, true);
 		long endTime = System.nanoTime();
 		long duration = (endTime - startTime) / 1000000; 
 		
